@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b5tlu5q53cjjv"]
 
 [ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_b2cq8"]
-[ext_resource type="PackedScene" uid="uid://denfmrpay4tll" path="res://scenes/enemies/drone.tscn" id="4_urvlt"]
+[ext_resource type="PackedScene" uid="uid://denfmrpay4tll" path="res://scenes/objects/drone.tscn" id="4_urvlt"]
 [ext_resource type="PackedScene" uid="uid://dtabmpsewygse" path="res://scenes/player/player.tscn" id="4_xb4v1"]
 [ext_resource type="PackedScene" uid="uid://blyxamq4bf211" path="res://scenes/objects/bed.tscn" id="5_urvlt"]
 
@@ -15,5 +15,3 @@ position = Vector2(516, 270)
 position = Vector2(864, 189)
 
 [node name="drone" parent="." instance=ExtResource("4_urvlt")]
-position = Vector2(95, 387)
-scale = Vector2(0.359978, 0.359978)

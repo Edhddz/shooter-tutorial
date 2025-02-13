@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dslqocm1ki7to"]
+
+[ext_resource type="Texture2D" uid="uid://cboqiuic4g0c5" path="res://graphics/objects/toilet.png" id="1_sy2pa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y83tn"]
+size = Vector2(236, 244)
+
+[node name="toilet" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_sy2pa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_y83tn")
